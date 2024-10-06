@@ -1,7 +1,13 @@
-<div *ngFor="let match of matches">
-  <h3>{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</h3>
-  <p>Fecha: {{ match.utcDate | date:'short' }}</p>
-  <p>Estado: {{ match.status }}</p>
-  <p>Resultado: {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</p>
-  <hr>
+<div class="matches-container">
+  <mat-card *ngFor="let match of matches; let i = index" class="match-card">
+    <mat-card-header>
+      <mat-card-title>{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p><strong>Fecha:</strong> {{ match.utcDate | date:'short' }}</p>
+      <p><strong>Estado:</strong> {{ match.status }}</p>
+      <p><strong>Resultado:</strong> {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</p>
+    </mat-card-content>
+    <mat-divider *ngIf="i < matches.length - 1"></mat-divider> 
+  </mat-card>
 </div>

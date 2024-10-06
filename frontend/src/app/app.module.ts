@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router'; // Importa RouterModule y Routes
-import { HttpClientModule } from '@angular/common/http';  // Importa HttpClientModule
+import { RouterModule, Routes } from '@angular/router'; 
+import { HttpClientModule } from '@angular/common/http';  
+
+import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatchesComponent } from './matches/matches.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 // Define las rutas directamente en app.module.ts
 const routes: Routes = [
@@ -22,9 +27,14 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    MatCardModule,
+    MatDividerModule,
+    MatIconModule,
     RouterModule.forRoot(routes) // Configura RouterModule con las rutas definidas
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

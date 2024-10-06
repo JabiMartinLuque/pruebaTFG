@@ -1,7 +1,0 @@
-<div *ngFor="let match of matches">
-  <h3>{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</h3>
-  <p>Fecha: {{ match.utcDate | date:'short' }}</p>
-  <p>Estado: {{ match.status }}</p>
-  <p>Resultado: {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</p>
-  <hr>
-</div>

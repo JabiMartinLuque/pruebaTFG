@@ -17,7 +17,7 @@ public class MatchService {
     }
 
     public String getMatches() {
-        String url = "https://api.football-data.org/v4/matches";
+        String url = "https://api.football-data.org/v4/teams";
         
         HttpHeaders headers = new HttpHeaders();
         headers.set("X-Auth-Token", "ffff1aac6e7147cd9eb59da188eeda08");  // Reemplaza TU_API_KEY con tu clave de la API

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.furbo.servicios.MatchService;
+import com.example.furbo.servicios.TeamService;
 
 @CrossOrigin(origins = "*")
 @RestController
@@ -16,10 +16,10 @@ public class TeamController {
     @Autowired
     private TeamService teamService;
 
-    
+
     @GetMapping
     public ResponseEntity<String> getTeams() {
-        String teams = matchService.getTeams();
+        String teams = teamService.getTeams();
         return ResponseEntity.ok(teams);
     }
 

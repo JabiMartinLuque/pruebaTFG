@@ -15,5 +15,5 @@ services:
     ports:
       - "4200:80"  # El frontend escucha en el puerto 4200
     volumes:
-      - ./frontend:/src  # Sincroniza el código local del frontend con el contenedor
+      - ./frontend:/app  # Sincroniza el código local del frontend con el contenedor
 

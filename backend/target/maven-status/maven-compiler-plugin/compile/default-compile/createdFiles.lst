@@ -1,4 +1,6 @@
-com\example\furbo\FurboApplication.class
+com\example\furbo\servicios\TeamService.class
 com\example\furbo\entidades\Partido.class
+com\example\furbo\FurboApplication.class
+com\example\furbo\controladores\TeamController.class
 com\example\furbo\controladores\MatchController.class
 com\example\furbo\servicios\MatchService.class

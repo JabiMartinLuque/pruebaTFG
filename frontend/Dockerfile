@@ -7,6 +7,9 @@ WORKDIR /app
 # Copia el package.json y package-lock.json
 COPY package*.json ./
 
+# Instala Angular CLI globalmente
+RUN npm install -g @angular/cli
+
 # Instala las dependencias
 RUN npm install
 
@@ -27,3 +30,4 @@ EXPOSE 80
 
 # Comando para ejecutar Nginx
 CMD ["nginx", "-g", "daemon off;"]
+

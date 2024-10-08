@@ -5,15 +5,17 @@ services:
     build:
       context: ./backend
     ports:
-      - "8080:8080"  # Backend sigue escuchando en el puerto 8080
+      - "8080:8080"
     volumes:
-      - ./backend:/src  # Sincroniza el código local del backend con el contenedor
+      - ./backend:/src
+    #command: mvn clean package  # Para que el contenedor use Maven y ejecute el backend
 
   frontend:
     build:
       context: ./frontend
     ports:
-      - "4200:80"  # El frontend escucha en el puerto 4200
+      - "4200:80"
     volumes:
-      - ./frontend:/app  # Sincroniza el código local del frontend con el contenedor
+      - ./frontend:/app
+
 

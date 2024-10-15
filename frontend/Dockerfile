@@ -8,13 +8,26 @@ WORKDIR /app
 COPY package*.json ./
 
 # Instala Angular CLI globalmente y todas las dependencias (incluidas las de desarrollo)
-RUN npm install -g @angular/cli && npm install
+RUN npm install -g @angular/cli && npm install && \
+    npm --version && ng --version && \
+    ls -la /usr/local/bin && ls -la /app/node_modules/.bin
+
+# Verifica las instalaciones
+RUN npm --version
+RUN ng --version
 
 # Agrega node_modules/.bin al PATH
 ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH /app/node_modules/.bin:/usr/local/bin:$PATH
 
 # Copia el código fuente de tu aplicación al contenedor
 COPY . .
+
+# Verifica la instalación de Angular CLI y npm
+RUN npm --version
+RUN ng --version
+RUN ls -la /usr/local/bin
+RUN ls -la /app/node_modules/.bin
 
 # Expone el puerto 4200 para acceder a la aplicación en desarrollo
 EXPOSE 4200
@@ -50,6 +63,4 @@ COPY --from=build /app/dist/furbo/browser /usr/share/nginx/html
 EXPOSE 80
 
 # Comando por defecto: Nginx se encargará de servir la aplicación
-CMD ["nginx", "-g", "daemon off;"]
-
-
+CMD ["nginx", "-g", "daemon off;"]      

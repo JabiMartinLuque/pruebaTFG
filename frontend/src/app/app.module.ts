@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatchesComponent } from './matches/matches.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { TeamsComponent } from './teams/teams.component';
 
 // Define las rutas directamente en app.module.ts
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MatchesComponent
+    MatchesComponent,
+    TeamsComponent
   ],
   imports: [
     BrowserModule,

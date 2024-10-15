@@ -1,0 +1,17 @@
+<div class="teams-container">
+    <mat-card *ngFor="let team of teams; let i = index" class="team-card">
+      <mat-card-header>
+        <mat-card-title>{{ team.name }} ({{ team.tla }})</mat-card-title>
+        <img mat-card-avatar [src]="team.crest" alt="Escudo de {{ team.name }}" class="team-crest">
+      </mat-card-header>
+      <mat-card-content>
+        <p><strong>Fundado:</strong> {{ team.founded }}</p>
+        <p><strong>Colores del club:</strong> {{ team.clubColors }}</p>
+        <p><strong>Estadio:</strong> {{ team.venue }}</p>
+        <p><strong>Dirección:</strong> {{ team.address }}</p>
+        <p><strong>Página web:</strong> <a [href]="team.website" target="_blank">{{ team.website }}</a></p>
+      </mat-card-content>
+      <mat-divider *ngIf="i < teams.length - 1"></mat-divider>
+    </mat-card>
+  </div>
+  

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { UsuarioService } from '../services/usuario.service';  // Asegúrate de importar el servicio
 import { Usuario } from '../entities/usuario';
+import { UsuarioService } from '../services/usuario.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inicio-sesion',
@@ -11,21 +11,22 @@ import { Usuario } from '../entities/usuario';
 export class InicioSesionComponent {
 
   usuario: Usuario = new Usuario('', '', '');
-  errorMessage: string | null = null; // Para mostrar el mensaje de error
-    
+  errorMessage: string = '';
 
   constructor(private usuarioService: UsuarioService, private router: Router) { }
 
   iniciarSesion() {
+    console.log('Iniciando sesión para usuario:', this.usuario);
+
     this.usuarioService.iniciarSesion(this.usuario).subscribe(
       response => {
         console.log('Inicio de sesión exitoso', response);
-        // Redirigir al usuario al inicio después de iniciar sesión
-        this.router.navigate(['/']);  // Cambia la ruta según tu configuración
+        localStorage.setItem('token', response.token); // Guarda el token en el localStorage
+        this.router.navigate(['/']);  // Redirigir al usuario al componente app
       },
       error => {
         console.error('Error al iniciar sesión', error);
-        this.errorMessage = 'Usuario o contraseña incorrectos. Por favor, intenta de nuevo.';
+        this.errorMessage = 'Credenciales incorrectas';
       }
     );
   }

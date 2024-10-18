@@ -1,15 +1,9 @@
-<!-- Mostrar el componente de inicio de sesión si el usuario no está registrado -->
-<div *ngIf="!usuarioRegistrado">
-  <app-inicio-sesion (registroCompletado)="onRegistroCompletado()"></app-inicio-sesion>
-</div>
+<!-- src/app/app.component.html -->
 
-<!-- Mostrar el resto de la aplicación si el usuario está registrado -->
-<div *ngIf="usuarioRegistrado">
+<nav *ngIf="isAuthenticated()">
   <h1>{{ title }}</h1>
-  <nav>
-    <a routerLink="/matches">Ver Partidos</a>
-    <a routerLink="/teams">Ver Equipos</a>
-    <!-- Otros enlaces de navegación -->
-  </nav>
-  <router-outlet></router-outlet>
-</div>
+  <a routerLink="/matches">Ver Partidos</a>
+  <a routerLink="/teams">Ver Equipos</a>
+  <!-- Otros enlaces de navegación -->
+</nav>
+<router-outlet></router-outlet>

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Usuario } from '../entities/usuario';
 import { Observable } from 'rxjs';
+import { AuthResponse } from '../entities/auth-response';
 
 @Injectable({
   providedIn: 'root'
@@ -12,12 +13,12 @@ export class UsuarioService {
 
     constructor(private http: HttpClient) { }
   
-    registrarUsuario(usuario: Usuario): Observable<Usuario> {
-      return this.http.post<Usuario>(this.apiURL + '/registro', usuario);
+    registrarUsuario(usuario: Usuario): Observable<AuthResponse> {
+      return this.http.post<AuthResponse>(this.apiURL + '/registro', usuario);
     }
   
-    obtenerUsuarios(): Observable<Usuario[]> {
-      return this.http.get<Usuario[]>(this.apiURL);
+    obtenerUsuarios(): Observable<AuthResponse[]> {
+      return this.http.get<AuthResponse[]>(this.apiURL);
     }
 
     iniciarSesion(usuario: Usuario): Observable<any> {

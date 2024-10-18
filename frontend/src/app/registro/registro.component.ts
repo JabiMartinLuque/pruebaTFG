@@ -1,6 +1,8 @@
+// src/app/registro/registro.component.ts
 import { Component, EventEmitter, Output } from '@angular/core';
 import { Usuario } from '../entities/usuario';
 import { UsuarioService } from '../services/usuario.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registro',
@@ -9,20 +11,21 @@ import { UsuarioService } from '../services/usuario.service';
 })
 export class RegistroComponent {
 
-  @Output() registroCompletado = new EventEmitter<void>();  // Emitir evento al registrarse
+  @Output() registroCompletado = new EventEmitter<void>();
 
   usuario: Usuario = new Usuario('', '', '');
 
-  constructor(private usuarioService: UsuarioService) { }
+  constructor(private usuarioService: UsuarioService, private router: Router) { }
 
   registrar() {
     console.log('Registrando usuario:', this.usuario);
 
-    // Usar el servicio para enviar el usuario al backend
     this.usuarioService.registrarUsuario(this.usuario).subscribe(
       response => {
         console.log('Usuario registrado con éxito', response);
-        this.registroCompletado.emit();  // Emitir evento de registro completado
+        localStorage.setItem('token', response.token); // Guarda el token en el localStorage
+        this.router.navigate(['/']);  // Redirigir al usuario al componente app
+        this.registroCompletado.emit(); // Emitir evento de registro completado
       },
       error => {
         console.error('Error al registrar el usuario', error);

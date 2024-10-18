@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'furbo';
+  title = 'furboaaaaa';
+
+    // Bandera para saber si el usuario está registrado
+    usuarioRegistrado: boolean = false;
+
+    // Este método será llamado cuando el usuario se registre
+    onRegistroCompletado() {
+      this.usuarioRegistrado = true;  // Cambia la bandera a 'true'
+    }
 }

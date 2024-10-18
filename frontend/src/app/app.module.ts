@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router'; 
 import { HttpClientModule } from '@angular/common/http';  
+import { FormsModule } from '@angular/forms';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
@@ -12,6 +13,8 @@ import { AppComponent } from './app.component';
 import { MatchesComponent } from './matches/matches.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { TeamsComponent } from './teams/teams.component';
+import { RegistroComponent } from './registro/registro.component';
+import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 
 // Define las rutas directamente en app.module.ts
 const routes: Routes = [
@@ -23,10 +26,13 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     MatchesComponent,
-    TeamsComponent
+    TeamsComponent,
+    RegistroComponent,
+    InicioSesionComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     HttpClientModule,
     MatCardModule,

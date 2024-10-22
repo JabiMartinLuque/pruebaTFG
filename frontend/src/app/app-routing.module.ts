@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'registro', component: RegistroComponent },
   { path: 'matches', component: MatchesComponent, canActivate: [AuthGuard] },
   { path: 'teams', component: TeamsComponent, canActivate: [AuthGuard] },
-  { path: '', redirectTo: '/matches', pathMatch: 'full' } // Ruta por defecto
+  { path: '', redirectTo: '/inicio-sesion', pathMatch: 'full' } 
 ];
 
 @NgModule({

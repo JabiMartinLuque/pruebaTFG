@@ -31,9 +31,15 @@ public class UsuarioController {
     public ResponseEntity<?> iniciarSesion(@RequestBody Usuario usuario) {
         boolean autenticado = usuarioService.autenticarUsuario(usuario);  // Método en tu servicio para autenticar
 
+        System.out.println(usuario.getId() + " " + usuario.getNombre()
+                + " " + usuario.getEmail()
+                + " " + usuario.getPassword()
+                + " " + autenticado);
+
         if (autenticado) {
             return ResponseEntity.ok().body("Inicio de sesión exitoso");  // Respuesta exitosa
         } else {
+            System.out.println("Credenciales incorrectas aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
             return ResponseEntity.status(401).body("Credenciales incorrectas");  // Respuesta de error
         }
     }

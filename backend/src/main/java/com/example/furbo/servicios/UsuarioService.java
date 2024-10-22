@@ -40,6 +40,9 @@ public class UsuarioService {
 
     public boolean autenticarUsuario(Usuario usuario) {
         Optional<Usuario> usuarioExistente = usuarioRepositorio.findByEmail(usuario.getEmail());  // Método para encontrar por email
+        
+        System.out.println("Buscando usuario con email: " + usuario.getEmail());
+        System.out.println("Resultado de la búsqueda: " + usuarioExistente);
 
         if (usuarioExistente != null) {
             return usuarioExistente.isPresent() && usuarioExistente.get().getPassword().equals(usuario.getPassword());  // Verifica la contraseña

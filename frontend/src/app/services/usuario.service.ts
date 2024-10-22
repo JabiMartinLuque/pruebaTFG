@@ -21,7 +21,7 @@ export class UsuarioService {
       return this.http.get<AuthResponse[]>(this.apiURL);
     }
 
-    iniciarSesion(usuario: Usuario): Observable<any> {
-        return this.http.post<any>(this.apiURL, usuario);  // Cambia a la URL correcta según tu configuración
+    iniciarSesion(usuario: Usuario): Observable<AuthResponse> {
+        return this.http.post<AuthResponse>(this.apiURL + '/login', usuario);  
     }
 }

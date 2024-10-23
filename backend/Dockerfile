@@ -18,7 +18,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copia el archivo JAR desde la imagen de construcción (build stage)
-COPY --from=build /app/target/*.jar app.jar
+COPY --from=build /app/target/*.jar /app/app.jar
 
 # Expone el puerto en el que la aplicación escuchará
 EXPOSE 8080

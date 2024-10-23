@@ -15,6 +15,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { TeamsComponent } from './teams/teams.component';
 import { RegistroComponent } from './registro/registro.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 // Define las rutas directamente en app.module.ts
 const routes: Routes = [
@@ -28,7 +29,8 @@ const routes: Routes = [
     MatchesComponent,
     TeamsComponent,
     RegistroComponent,
-    InicioSesionComponent
+    InicioSesionComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,

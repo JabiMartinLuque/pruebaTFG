@@ -24,7 +24,7 @@ export class RegistroComponent {
       response => {
         console.log('Usuario registrado con éxito', response);
         localStorage.setItem('token', response.token); // Guarda el token en el localStorage
-        this.router.navigate(['/matches']);  // Redirigir al usuario al componente app
+        this.router.navigate(['/principal']);  // Redirigir al usuario al componente app
         this.registroCompletado.emit(); // Emitir evento de registro completado
       },
       error => {

@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicLong;
 
 
 
@@ -21,13 +20,11 @@ public class UsuarioService {
     private UsuarioRepository usuarioRepositorio;
 
     private List<Usuario> usuarios = new ArrayList<>();
-    private AtomicLong idCounter = new AtomicLong();  // Para generar IDs únicos
 
     public Usuario registrarUsuario(Usuario usuario) {
         // Asignar un ID único al usuario
-        usuario.setId(idCounter.incrementAndGet());
-        usuarios.add(usuario);
-        return usuario;
+        return usuarioRepositorio.save(usuario);
+
     }
 
     public List<Usuario> obtenerUsuarios() {
@@ -41,11 +38,11 @@ public class UsuarioService {
     public boolean autenticarUsuario(Usuario usuario) {
         Optional<Usuario> usuarioExistente = usuarioRepositorio.findByEmail(usuario.getEmail());  // Método para encontrar por email
         
-        System.out.println("Buscando usuario con email: " + usuario.getEmail());
-        System.out.println("Resultado de la búsqueda: " + usuarioExistente);
+        System.out.println("Buscando usuario con email: " + usuario.getPassword());
+        System.out.println("Resultado de la búsqueda: " + usuarioExistente.get().getPassword());
 
-        if (usuarioExistente != null) {
-            return usuarioExistente.isPresent() && usuarioExistente.get().getPassword().equals(usuario.getPassword());  // Verifica la contraseña
+        if (usuarioExistente.isPresent()) {
+            return usuarioExistente.get().getPassword().equals(usuario.getPassword());  // Verifica la contraseña
         }
         return false;  // Usuario no encontrado
     }

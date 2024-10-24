@@ -17,7 +17,7 @@ public class TeamService {
     }
 
     public String getTeams() {
-        String url = "https://api.football-data.org/v4/teams";
+        String url = "https://api.football-data.org/v4/teams?limit=100&offset=100";
         
         HttpHeaders headers = new HttpHeaders();
         headers.set("X-Auth-Token", "ffff1aac6e7147cd9eb59da188eeda08");  // Reemplaza TU_API_KEY con tu clave de la API

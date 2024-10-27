@@ -1,20 +1,35 @@
 .matches-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .match-card {
-    width: 300px;
-    min-height: 200px; /* Ajusta según sea necesario */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  padding: 20px;
+}
 
-.mat-divider {
-  border-top: 1px solid #ddd; 
-  margin: 10px 0; 
+.match-card {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.match-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-logo {
+  max-height: 50px;
+}
+
+.vs-text {
+  font-weight: bold;
+  font-size: 1.2rem;
 }

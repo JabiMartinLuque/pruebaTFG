@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatchService } from '../services/match.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-matches',
@@ -10,17 +11,13 @@ export class MatchesComponent implements OnInit {
 
   matches: any[] = [];
 
-  constructor(private matchService: MatchService) { }
+  constructor(private router: Router, private matchService: MatchService) { }
 
   ngOnInit(): void {
-    this.matchService.getMatches().subscribe(
-      (data: any) => {
-        console.log('API Response:', data);  // Verifica la respuesta en la consola
-        this.matches = data.matches;  // Ajusta según el formato de respuesta
-      },
-      (error: any) => {
-        console.error('Error fetching matches:', error);  // Maneja y muestra errores
-      }
-    );
+    this.matchService.getMatches().subscribe(matches => this.matches = matches);
+  }
+
+  goToMatchDetail(id: string): void {
+    this.router.navigate(['/matches', id]);
   }
 }

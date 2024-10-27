@@ -1,0 +1,10 @@
+.result-box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem; /* Hacer el resultado más grande */
+    border: 2px solid white; /* Borde blanco */
+    font-family: 'Roboto', sans-serif; /* Cambiar la fuente */
+  }

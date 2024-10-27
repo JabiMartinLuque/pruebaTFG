@@ -3,6 +3,7 @@ package com.example.furbo.controladores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.CrossOrigin; // Asegúrate de importar esta clase
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,8 +24,9 @@ public class MatchController {
         return ResponseEntity.ok(matches);
     }
 
-    @GetMapping("/test")
-    public ResponseEntity<String> test() {
-        return ResponseEntity.ok("¡El servidor está funcionando!");
+    @GetMapping("/{id}")
+    public ResponseEntity<String> getMatchById(@PathVariable String id) {
+        String match = matchService.getMatchById(id);
+        return ResponseEntity.ok(match);
     }
 }

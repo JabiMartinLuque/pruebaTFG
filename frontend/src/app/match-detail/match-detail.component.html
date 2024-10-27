@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <div *ngIf="match">
+      <div class="card">
+        <div class="card-header text-center">
+          <h2>{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</h2>
+          <img [src]="match.competition.emblem" alt="{{ match.competition.name }}" class="img-fluid" style="max-height: 50px;">
+          <p class="mt-2">{{ match.competition.name }} - Jornada {{ match.matchday }}</p>
+        </div>
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col-md-5 text-center">
+              <img [src]="match.homeTeam.crest" alt="{{ match.homeTeam.name }}" class="img-fluid" style="max-height: 100px;">
+              <h4>{{ match.homeTeam.name }}</h4>
+            </div>
+            <div class="col-md-2 text-center">
+              <div class="result-box">
+                <h3>{{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</h3>
+              </div>
+            </div>
+            <div class="col-md-5 text-center">
+              <img [src]="match.awayTeam.crest" alt="{{ match.awayTeam.name }}" class="img-fluid" style="max-height: 100px;">
+              <h4>{{ match.awayTeam.name }}</h4>
+            </div>
+          </div>
+          <hr>
+          <div class="text-center">
+            <p><strong>Fecha:</strong> {{ match.utcDate | date:'fullDate' }} {{ match.utcDate | date:'shortTime' }}</p>
+            <p><strong>Estado:</strong> {{ match.status }}</p>
+            <p><strong>Resultado al Medio Tiempo:</strong> {{ match.score.halfTime.home }} - {{ match.score.halfTime.away }}</p>
+            <p><strong>Árbitro:</strong> {{ match.referees[0]?.name }} ({{ match.referees[0]?.nationality }})</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

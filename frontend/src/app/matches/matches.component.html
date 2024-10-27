@@ -1,13 +1,24 @@
-<div class="matches-container">
-  <mat-card *ngFor="let match of matches; let i = index" class="match-card">
-    <mat-card-header>
-      <mat-card-title>{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <p><strong>Fecha:</strong> {{ match.utcDate | date:'short' }}</p>
-      <p><strong>Estado:</strong> {{ match.status }}</p>
-      <p><strong>Resultado:</strong> {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</p>
-    </mat-card-content>
-    <mat-divider *ngIf="i < matches.length - 1"></mat-divider> 
-  </mat-card>
+<div class="container matches-container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let match of matches; let i = index">
+      <div class="card match-card mb-4" (click)="goToMatchDetail(match.id)">
+        <div class="card-header text-center">
+          <div class="team-logos">
+            <div class="team-logo-container">
+              <img [src]="match.homeTeam.crest" alt="{{ match.homeTeam.name }}" class="team-logo">
+            </div>
+            <span class="vs-text">vs</span>
+            <div class="team-logo-container">
+              <img [src]="match.awayTeam.crest" alt="{{ match.awayTeam.name }}" class="team-logo">
+            </div>
+          </div>
+        </div>
+        <div class="card-body text-center">
+          <p><strong>Fecha:</strong> {{ match.utcDate | date:'short' }}</p>
+          <p><strong>Estado:</strong> {{ match.status }}</p>
+          <p><strong>Resultado:</strong> {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

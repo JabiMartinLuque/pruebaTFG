@@ -28,4 +28,16 @@ export class MatchService {
   getMatchById(id: string): Observable<any> {
     return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
+
+  getMatchesEsp(): Observable<any[]> {
+    return this.http.get<any>(this.apiUrl + '/esp').pipe(
+      map(response => response.events),
+    );
+  }
+
+  getMatchesEng(): Observable<any[]> {
+    return this.http.get<any>(this.apiUrl + '/eng').pipe(
+      map(response => response.events),
+    );
+  }
 }

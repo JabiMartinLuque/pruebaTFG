@@ -1,3 +1,4 @@
+
 <div class="container matches-container">
   <div class="row">
     <div class="col-md-4" *ngFor="let match of matches; let i = index">
@@ -17,6 +18,117 @@
           <p><strong>Fecha:</strong> {{ match.utcDate | date:'short' }}</p>
           <p><strong>Estado:</strong> {{ match.status }}</p>
           <p><strong>Resultado:</strong> {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h1 class="text-center mb-4">Partidos de la Liga Española</h1>
+<div class="container matches-container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let event of matchesESP; let i = index">
+      <div class="card match-card mb-4" (click)="goToMatchDetail(event.id)">
+        <div class="card-header text-center">
+          <div class="team-logos">
+            <div class="team-logo-container">
+              <img [src]="event.competitions[0]?.competitors[0]?.team?.logo" alt="{{ event.competitions[0]?.competitors[0]?.team?.name }}" class="team-logo">
+            </div>
+            <span class="vs-text">vs</span>
+            <div class="team-logo-container">
+              <img [src]="event.competitions[0]?.competitors[1]?.team?.logo" alt="{{ event.competitions[0]?.competitors[1]?.team?.name }}" class="team-logo">
+            </div>
+          </div>
+        </div>
+        <div class="card-body text-center">
+          <p><strong>Fecha:</strong> {{ event.date | date:'short' }}</p>
+          <p><strong>Estado:</strong> {{ event.status?.type?.description }}</p>
+          <p><strong>Resultado:</strong> {{ event.competitions[0]?.competitors[0]?.score }} - {{ event.competitions[0]?.competitors[1]?.score }}</p>
+          <hr>
+          <h5>Estadísticas del Partido</h5>
+          <div class="row">
+            <div class="col-md-6">
+              <h6>Equipo Local</h6>
+              <p><strong>Posesión:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[4]?.displayValue || '' }}%</p>
+              <p><strong>Tiros a Puerta:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[6]?.displayValue || '' }}</p>
+              <p><strong>Tiros Totales:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[8]?.displayValue || '' }}</p>
+              <p><strong>Faltas Cometidas:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[1]?.displayValue || '' }}</p>
+              <p><strong>Corners Ganados:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[2]?.displayValue || '' }}</p>
+              <p><strong>Asistencias de Gol:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[3]?.displayValue || '' }}</p>
+            </div>
+            <div class="col-md-6">
+              <h6>Equipo Visitante</h6>
+              <p><strong>Posesión:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[4]?.displayValue || '' }}%</p>
+              <p><strong>Tiros a Puerta:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[6]?.displayValue || '' }}</p>
+              <p><strong>Tiros Totales:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[8]?.displayValue || '' }}</p>
+              <p><strong>Faltas Cometidas:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[1]?.displayValue || '' }}</p>
+              <p><strong>Corners Ganados:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[2]?.displayValue || '' }}</p>
+              <p><strong>Asistencias de Gol:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[3]?.displayValue || '' }}</p>
+            </div>
+          </div>
+          <hr>
+          <h5>Eventos del Partido</h5>
+          <ul class="list-unstyled">
+            <li *ngFor="let detail of event.competitions[0]?.details">
+              <p><strong>{{ detail.clock?.displayValue }}</strong> - {{ detail.type?.text }} - {{ detail.athletesInvolved[0]?.displayName }}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="text-center mb-4">Partidos de la Liga Inglesa</h1>
+<div class="container matches-container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let event of matchesENG; let i = index">
+      <div class="card match-card mb-4" (click)="goToMatchDetail(event.id)">
+        <div class="card-header text-center">
+          <div class="team-logos">
+            <div class="team-logo-container">
+              <img [src]="event.competitions[0]?.competitors[0]?.team?.logo" alt="{{ event.competitions[0]?.competitors[0]?.team?.name }}" class="team-logo">
+            </div>
+            <span class="vs-text">vs</span>
+            <div class="team-logo-container">
+              <img [src]="event.competitions[0]?.competitors[1]?.team?.logo" alt="{{ event.competitions[0]?.competitors[1]?.team?.name }}" class="team-logo">
+            </div>
+          </div>
+        </div>
+        <div class="card-body text-center">
+          <p><strong>Fecha:</strong> {{ event.date | date:'short' }}</p>
+          <p><strong>Estado:</strong> {{ event.status?.type?.description }}</p>
+          <p><strong>Resultado:</strong> {{ event.competitions[0]?.competitors[0]?.score }} - {{ event.competitions[0]?.competitors[1]?.score }}</p>
+          <hr>
+          <h5>Estadísticas del Partido</h5>
+          <div class="row">
+            <div class="col-md-6">
+              <h6>Equipo Local</h6>
+              <p><strong>Posesión:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[4]?.displayValue || '' }}%</p>
+              <p><strong>Tiros a Puerta:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[6]?.displayValue || '' }}</p>
+              <p><strong>Tiros Totales:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[8]?.displayValue || '' }}</p>
+              <p><strong>Faltas Cometidas:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[1]?.displayValue || '' }}</p>
+              <p><strong>Corners Ganados:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[2]?.displayValue || '' }}</p>
+              <p><strong>Asistencias de Gol:</strong> {{ event.competitions[0]?.competitors[0]?.statistics[3]?.displayValue || '' }}</p>
+            </div>
+            <div class="col-md-6">
+              <h6>Equipo Visitante</h6>
+              <p><strong>Posesión:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[4]?.displayValue || '' }}%</p>
+              <p><strong>Tiros a Puerta:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[6]?.displayValue || '' }}</p>
+              <p><strong>Tiros Totales:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[8]?.displayValue || '' }}</p>
+              <p><strong>Faltas Cometidas:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[1]?.displayValue || '' }}</p>
+              <p><strong>Corners Ganados:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[2]?.displayValue || '' }}</p>
+              <p><strong>Asistencias de Gol:</strong> {{ event.competitions[0]?.competitors[1]?.statistics[3]?.displayValue || '' }}</p>
+            </div>
+          </div>
+          <hr>
+          <h5>Eventos del Partido</h5>
+          <ul class="list-unstyled">
+            <li *ngFor="let detail of event.competitions[0]?.details">
+              <p><strong>{{ detail.clock?.displayValue }}</strong> - {{ detail.type?.text }} - {{ detail.athletesInvolved[0]?.displayName }}</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

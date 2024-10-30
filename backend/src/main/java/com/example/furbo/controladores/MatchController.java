@@ -29,4 +29,16 @@ public class MatchController {
         String match = matchService.getMatchById(id);
         return ResponseEntity.ok(match);
     }
+
+    @GetMapping("/esp")
+    public ResponseEntity<String> getMatchesEsp() {
+        String matches = matchService.getMatchesEsp();
+        return ResponseEntity.ok(matches);
+    }
+
+    @GetMapping("/eng")
+    public ResponseEntity<String> getMatchesEng() {
+        String matches = matchService.getMatchesEng();
+        return ResponseEntity.ok(matches);
+    }
 }

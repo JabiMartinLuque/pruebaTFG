@@ -17,6 +17,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { MatchDetailComponent } from './match-detail/match-detail.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 // Define las rutas directamente en app.module.ts
 const routes: Routes = [
@@ -32,7 +33,8 @@ const routes: Routes = [
     RegistroComponent,
     InicioSesionComponent,
     PrincipalComponent,
-    MatchDetailComponent
+    MatchDetailComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,

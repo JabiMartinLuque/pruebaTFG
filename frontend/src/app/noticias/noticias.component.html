@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Noticias</h2>
+    <div *ngIf="noticias && noticias.length; else noNoticias">
+      <div *ngFor="let noticia of noticias" class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><!--{{ noticia.titulo }}-->TITULO</h5>
+          <p class="card-text">{{ noticia.description }}</p>
+            <a [href]="noticia.links.web.href" class="btn btn-primary" target="_blank">Leer más</a>
+          <p class="card-text">
+            <small class="text-muted">
+              Publicado el {{ noticia.published | date:'mediumDate' }} por {{ noticia.byline }}
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <ng-template #noNoticias>
+      <p>No hay noticias disponibles.</p>
+    </ng-template>
+  </div>

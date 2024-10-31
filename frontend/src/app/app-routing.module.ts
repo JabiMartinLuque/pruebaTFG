@@ -6,6 +6,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { MatchDetailComponent } from './match-detail/match-detail.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'principal', component: PrincipalComponent, canActivate: [AuthGuard] },
   { path: 'teams', component: TeamsComponent, canActivate: [AuthGuard] },
   { path: 'matches/:id', component: MatchDetailComponent, canActivate: [AuthGuard] }, 
+  { path: 'noticias', component: NoticiasComponent, canActivate: [AuthGuard] },
   { path: '', redirectTo: '/inicio-sesion', pathMatch: 'full' } 
 ];
 

@@ -1,10 +1,12 @@
 com\example\furbo\servicios\TeamService.class
 com\example\furbo\controladores\UsuarioController.class
-com\example\furbo\repositorios\UsuarioRepository.class
 com\example\furbo\entidades\Partido.class
 com\example\furbo\entidades\Usuario.class
+com\example\furbo\servicios\MatchService.class
+com\example\furbo\repositorios\UsuarioRepository.class
+com\example\furbo\controladores\NoticiasController.class
+com\example\furbo\servicios\NoticiasService.class
 com\example\furbo\servicios\UsuarioService.class
 com\example\furbo\FurboApplication.class
 com\example\furbo\controladores\TeamController.class
 com\example\furbo\controladores\MatchController.class
-com\example\furbo\servicios\MatchService.class

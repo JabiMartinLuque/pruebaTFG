@@ -2,20 +2,15 @@ version: '3.8'
 
 services:
   backend:
-    build:
-      context: ./backend
+    image: javiermartinluque/furboproyecto-backend:latest  # Nombre de la imagen en Docker Hub
     ports:
       - "8080:8080"
-    volumes:
-      - ./backend:/src
-    #command: mvn clean package  # Para que el contenedor use Maven y ejecute el backend
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
 
   frontend:
-    build:
-      context: ./frontend
+    image: javiermartinluque/furboproyecto-frontend:latest  # Nombre de la imagen en Docker Hub
     ports:
       - "4200:80"
-    #volumes:
-     # - ./frontend:/app
 
 

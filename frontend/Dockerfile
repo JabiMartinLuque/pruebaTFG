@@ -22,6 +22,9 @@ FROM nginx:alpine
 # Copia los archivos generados por Angular en la fase de construcción
 COPY --from=build /app/dist/furbo/browser /usr/share/nginx/html
 
+# Copia el archivo de configuración de Nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Expone el puerto 80 para servir la aplicación
 EXPOSE 80
 

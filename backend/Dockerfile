@@ -7,7 +7,6 @@ WORKDIR /app
 # Copia los archivos pom.xml y src al contenedor
 COPY pom.xml .
 COPY src ./src
-COPY db.mv.db .
 
 # Ejecuta Maven para compilar el proyecto y generar el archivo JAR
 RUN mvn clean package -DskipTests

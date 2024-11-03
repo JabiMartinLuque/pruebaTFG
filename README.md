@@ -1,8 +1,5 @@
 # Prueba de Proyecto
 
-## Descripción
-Este proyecto es una prueba de aplicación web que requiere ajustes en el navegador para acceder correctamente si se usa Google Chrome.
-
 ## Configuración Previa
 
 Antes de acceder a la aplicación, sigue estos pasos para desactivar una configuración en Chrome que bloquea peticiones a sitios web no seguros (HTTP).

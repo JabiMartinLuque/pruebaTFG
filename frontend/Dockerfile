@@ -19,14 +19,17 @@ RUN npm run build --configuration=production --aot
 # Fase 2: Nginx para servir en producción
 FROM nginx:alpine
 
+# Instala gettext para usar envsubst
+RUN apk add --no-cache gettext
+
 # Copia los archivos generados por Angular en la fase de construcción
 COPY --from=build /app/dist/furbo/browser /usr/share/nginx/html
 
 # Copia el archivo de configuración de Nginx
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf.template /etc/nginx/templates/nginx.conf.template
 
 # Expone el puerto 80 para servir la aplicación
 EXPOSE 80
 
-# Comando por defecto: Nginx se encargará de servir la aplicación
-CMD ["nginx", "-g", "daemon off;"]
+# Reemplaza las variables de entorno en el archivo de configuración de Nginx y luego inicia Nginx
+CMD ["/bin/sh", "-c", "envsubst '${SERVER_NAME} ${BACKEND_HOST} ${BACKEND_PORT} ${CORS_ORIGIN}' < /etc/nginx/templates/nginx.conf.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]

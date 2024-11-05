@@ -1,0 +1,46 @@
+<div class="container mt-5">
+    <h1 class="text-center">Overall Standings</h1>
+    <div class="text-center mb-3">
+        <button class="btn btn-primary" (click)="showEsp()">Liga Española</button>
+        <button class="btn btn-secondary" (click)="showEng()">Liga Inglesa</button>
+    </div>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Rank</th>
+                <th>Logo</th>
+                <th>Equipo</th>
+                <th>PJ</th>
+                <th>V</th>
+                <th>E</th>
+                <th>P</th>
+                <th>GF</th>
+                <th>GC</th>
+                <th>DG</th>
+                <th>Puntos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let standing of currentStandings">
+                <td>{{ standing.records[0].stats[23].value }}</td>
+                <td>
+                    <img [src]="standing.teamLogo" alt="{{ standing.teamName }}" width="50">
+                    <span *ngIf="standing.note?.description" [ngClass]="{
+                        'badge badge-primary': standing.note.description === 'Champions League',
+                        'badge badge-warning': standing.note.description === 'Europa League',
+                        'badge badge-success': standing.note.description === 'Conference League qualifying'
+                    }"></span>
+                </td>
+                <td>{{ standing.teamName }}</td>
+                <td>{{ standing.records[0].stats[0].value }}</td>
+                <td>{{ standing.records[0].stats[8].value }}</td>
+                <td>{{ standing.records[0].stats[7].value }}</td>
+                <td>{{ standing.records[0].stats[1].value }}</td>
+                <td>{{ standing.records[0].stats[5].value }}</td>
+                <td>{{ standing.records[0].stats[4].value }}</td>
+                <td>{{ standing.records[0].stats[2].value }}</td>
+                <td>{{ standing.records[0].stats[3].value }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

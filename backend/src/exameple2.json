@@ -1,0 +1,5507 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/standings/0?lang=en&region=es",
+    "id": "0",
+    "name": "overall",
+    "displayName": "Overall Standings",
+    "standings": [
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/83?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/83/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "11-0-1",
+            "displayValue": "11-0-1",
+            "value": 0.916666666666667,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 29,
+                "displayValue": "+29"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 33,
+                "displayValue": "33"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 40,
+                "displayValue": "40"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 22,
+                "displayValue": "22"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#81D6AC",
+          "description": "Champions League",
+          "rank": 1
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/86?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/86/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "7-3-1",
+            "displayValue": "7-3-1",
+            "value": 0.772727272727273,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 10,
+                "displayValue": "+10"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 24,
+                "displayValue": "24"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 21,
+                "displayValue": "21"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 14,
+                "displayValue": "14"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#81D6AC",
+          "description": "Champions League",
+          "rank": 2
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/1068?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/1068/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "6-5-1",
+            "displayValue": "6-5-1",
+            "value": 0.708333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 11,
+                "displayValue": "+11"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 23,
+                "displayValue": "23"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#81D6AC",
+          "description": "Champions League",
+          "rank": 3
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/102?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/102/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "6-3-2",
+            "displayValue": "6-3-2",
+            "value": 0.681818181818182,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 1,
+                "displayValue": "+1"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 21,
+                "displayValue": "21"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 19,
+                "displayValue": "19"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 20,
+                "displayValue": "20"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#81D6AC",
+          "description": "Champions League",
+          "rank": 4
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/97?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/97/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "6-3-3",
+            "displayValue": "6-3-3",
+            "value": 0.625,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 1,
+                "displayValue": "+1"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 21,
+                "displayValue": "21"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 16,
+                "displayValue": "16"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 17,
+                "displayValue": "17"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#B2BFD0",
+          "description": "Europa League",
+          "rank": 5
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/93?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/93/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "5-4-3",
+            "displayValue": "5-4-3",
+            "value": 0.583333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 6,
+                "displayValue": "+6"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 19,
+                "displayValue": "19"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#c6d1e0",
+          "description": "Conference League qualifying",
+          "rank": 6
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/244?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/244/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "5-4-3",
+            "displayValue": "5-4-3",
+            "value": 0.583333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 2,
+                "displayValue": "+2"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 19,
+                "displayValue": "19"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/84?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/84/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "5-3-4",
+            "displayValue": "5-3-4",
+            "value": 0.541666666666667,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 1,
+                "displayValue": "+1"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/101?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/101/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "4-4-3",
+            "displayValue": "4-4-3",
+            "value": 0.545454545454545,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 2,
+                "displayValue": "+2"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 16,
+                "displayValue": "16"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/85?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/85/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "5-1-6",
+            "displayValue": "5-1-6",
+            "value": 0.458333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -2,
+                "displayValue": "-2"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 16,
+                "displayValue": "16"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 20,
+                "displayValue": "20"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/89?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/89/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "4-3-5",
+            "displayValue": "4-3-5",
+            "value": 0.458333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 15,
+                "displayValue": "15"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/9812?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/9812/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "4-3-5",
+            "displayValue": "4-3-5",
+            "value": 0.458333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -2,
+                "displayValue": "-2"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 15,
+                "displayValue": "15"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 17,
+                "displayValue": "17"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 15,
+                "displayValue": "15"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/243?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/243/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "4-3-5",
+            "displayValue": "4-3-5",
+            "value": 0.458333333333333,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -5,
+                "displayValue": "-5"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 15,
+                "displayValue": "15"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 17,
+                "displayValue": "17"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/96?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/96/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "4-1-7",
+            "displayValue": "4-1-7",
+            "value": 0.375,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -5,
+                "displayValue": "-5"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 19,
+                "displayValue": "19"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 14,
+                "displayValue": "14"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 14,
+                "displayValue": "14"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/17534?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/17534/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "2-5-5",
+            "displayValue": "2-5-5",
+            "value": 0.375,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -4,
+                "displayValue": "-4"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 16,
+                "displayValue": "16"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 15,
+                "displayValue": "15"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/2922?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/2922/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "1-7-4",
+            "displayValue": "1-7-4",
+            "value": 0.375,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -2,
+                "displayValue": "-2"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 16,
+                "displayValue": "16"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/88?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/88/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "3-1-8",
+            "displayValue": "3-1-8",
+            "value": 0.291666666666667,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -11,
+                "displayValue": "-11"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 10,
+                "displayValue": "10"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 22,
+                "displayValue": "22"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 17,
+                "displayValue": "17"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/98?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/98/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "2-3-7",
+            "displayValue": "2-3-7",
+            "value": 0.291666666666667,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -8,
+                "displayValue": "-8"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 21,
+                "displayValue": "21"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 13,
+                "displayValue": "13"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#FF7F84",
+          "description": "Relegation",
+          "rank": 18
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/95?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/95/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "2-2-8",
+            "displayValue": "2-2-8",
+            "value": 0.25,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 12,
+                "displayValue": "12"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -15,
+                "displayValue": "-15"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 24,
+                "displayValue": "24"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 9,
+                "displayValue": "9"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 18,
+                "displayValue": "18"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 3,
+                "displayValue": "3"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 19,
+                "displayValue": "19"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#FF7F84",
+          "description": "Relegation",
+          "rank": 19
+        }
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/teams/94?lang=en&region=es"
+        },
+        "records": [
+          {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2024/types/1/groups/1/teams/94/records/0?lang=en&region=es",
+            "id": "0",
+            "name": "overall",
+            "abbreviation": "Total",
+            "displayName": "Overall",
+            "shortDisplayName": "OVER",
+            "description": "Overall Record",
+            "type": "total",
+            "summary": "1-4-6",
+            "displayValue": "1-4-6",
+            "value": 0.272727272727273,
+            "stats": [
+              {
+                "name": "gamesPlayed",
+                "displayName": "Games Played",
+                "shortDisplayName": "GP",
+                "description": "Games Played",
+                "abbreviation": "GP",
+                "type": "gamesplayed",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "pointDifferential",
+                "displayName": "Goal Difference",
+                "shortDisplayName": "GD",
+                "description": "Goal Difference",
+                "abbreviation": "GD",
+                "type": "pointdifferential",
+                "value": -9,
+                "displayValue": "-9"
+              },
+              {
+                "name": "points",
+                "displayName": "Points",
+                "shortDisplayName": "P",
+                "description": "Points",
+                "abbreviation": "P",
+                "type": "points",
+                "value": 7,
+                "displayValue": "7"
+              },
+              {
+                "name": "pointsAgainst",
+                "displayName": "Goals Against",
+                "shortDisplayName": "A",
+                "description": "Goals Against",
+                "abbreviation": "A",
+                "type": "pointsagainst",
+                "value": 17,
+                "displayValue": "17"
+              },
+              {
+                "name": "pointsFor",
+                "displayName": "Goals For",
+                "shortDisplayName": "F",
+                "description": "Goals For",
+                "abbreviation": "F",
+                "type": "pointsfor",
+                "value": 8,
+                "displayValue": "8"
+              },
+              {
+                "name": "streak",
+                "displayName": "Streak",
+                "shortDisplayName": "STRK",
+                "description": "Current Streak",
+                "abbreviation": "STRK",
+                "type": "streak",
+                "value": 0,
+                "displayValue": "-"
+              },
+              {
+                "name": "ties",
+                "displayName": "Draws",
+                "shortDisplayName": "D",
+                "description": "Draws",
+                "abbreviation": "D",
+                "type": "ties",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "awayGamesPlayed",
+                "displayName": "Away Games Played",
+                "shortDisplayName": "AGP",
+                "description": "Away Games Played",
+                "abbreviation": "AGP",
+                "type": "awaygamesplayed",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "awayLosses",
+                "displayName": "Away Losses",
+                "shortDisplayName": "AL",
+                "description": "Away Losses",
+                "abbreviation": "AL",
+                "type": "awaylosses",
+                "value": 4,
+                "displayValue": "4"
+              },
+              {
+                "name": "awayPointsAgainst",
+                "displayName": "Away Goals Against",
+                "shortDisplayName": "AGA",
+                "description": "Away Goals Against",
+                "abbreviation": "AGA",
+                "type": "awaypointsagainst",
+                "value": 11,
+                "displayValue": "11"
+              },
+              {
+                "name": "awayPointsFor",
+                "displayName": "Away Goals For",
+                "shortDisplayName": "AGF",
+                "description": "Away Goals For",
+                "abbreviation": "AGF",
+                "type": "awaypointsfor",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayTies",
+                "displayName": "Away Draws",
+                "shortDisplayName": "AD",
+                "description": "Away Draws",
+                "abbreviation": "AD",
+                "type": "awayties",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "awayWins",
+                "displayName": "Away Wins",
+                "shortDisplayName": "AW",
+                "description": "Away Wins",
+                "abbreviation": "AW",
+                "type": "awaywins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "deductions",
+                "displayName": "Point Deductions",
+                "shortDisplayName": "Deductions",
+                "description": "Point Deductions",
+                "abbreviation": "PD",
+                "type": "deductions",
+                "value": 0,
+                "displayValue": ""
+              },
+              {
+                "name": "homeGamesPlayed",
+                "displayName": "Home Games Played",
+                "shortDisplayName": "HGP",
+                "description": "Home Games Played",
+                "abbreviation": "HGP",
+                "type": "homegamesplayed",
+                "value": 5,
+                "displayValue": "5"
+              },
+              {
+                "name": "homeLosses",
+                "displayName": "Home Losses",
+                "shortDisplayName": "HL",
+                "description": "Home Losses",
+                "abbreviation": "HL",
+                "type": "homelosses",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homePointsAgainst",
+                "displayName": "Home Goals Against",
+                "shortDisplayName": "HGA",
+                "description": "Home Goals Against",
+                "abbreviation": "HGA",
+                "type": "homepointsagainst",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homePointsFor",
+                "displayName": "Home Goals For",
+                "shortDisplayName": "HGF",
+                "description": "Home Goals For",
+                "abbreviation": "HGF",
+                "type": "homepointsfor",
+                "value": 6,
+                "displayValue": "6"
+              },
+              {
+                "name": "homeTies",
+                "displayName": "Home Draws",
+                "shortDisplayName": "HD",
+                "description": "Home Draws",
+                "abbreviation": "HD",
+                "type": "hometies",
+                "value": 2,
+                "displayValue": "2"
+              },
+              {
+                "name": "homeWins",
+                "displayName": "Home Wins",
+                "shortDisplayName": "HW",
+                "description": "Home Wins",
+                "abbreviation": "HW",
+                "type": "homewins",
+                "value": 1,
+                "displayValue": "1"
+              },
+              {
+                "name": "ppg",
+                "displayName": "Points Per Game",
+                "shortDisplayName": "PPG",
+                "description": "Points Per Game",
+                "abbreviation": "PPG",
+                "type": "ppg",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "rank",
+                "displayName": "Rank",
+                "shortDisplayName": "Rank",
+                "description": "Rank",
+                "abbreviation": "R",
+                "type": "rank",
+                "value": 20,
+                "displayValue": "20"
+              },
+              {
+                "name": "rankChange",
+                "displayName": "Rank Change",
+                "shortDisplayName": "Rank Change",
+                "description": "Rank Change",
+                "abbreviation": "RC",
+                "type": "rankchange",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "color": "#FF7F84",
+          "description": "Relegation",
+          "rank": 20
+        }
+      }
+    ],
+    "links": [
+      {
+        "language": "en-ES",
+        "rel": [
+          "standings",
+          "desktop"
+        ],
+        "href": "https://www.espn.com/soccer/table/_/league/esp.1",
+        "text": "Full Table",
+        "shortText": "Table",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ]
+  }

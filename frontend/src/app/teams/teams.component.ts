@@ -9,6 +9,7 @@ import { TeamService } from '../services/team.service';
 export class TeamsComponent implements OnInit {
 
   teams: any[] = [];
+  http: any;
 
   constructor(private teamService: TeamService) { }
 
@@ -23,4 +24,6 @@ export class TeamsComponent implements OnInit {
       }
     );
   }
+
+
 }

@@ -33,3 +33,25 @@
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+.date-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+
+}
+
+.date-buttons {
+  display: inline-flex;
+}
+
+.date-button {
+  flex: 0 0 auto;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.date-button.active {
+  background-color: #007bff;
+  color: white;
+}

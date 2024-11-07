@@ -1,4 +1,19 @@
+<!-- Sección de botones de fechas con scroll horizontal -->
+<div class="date-scroll-container" #scrollContainer>
+  <div class="date-buttons">
+    <button
+      *ngFor="let dateObj of displayedDates"
+      (click)="onDateSelected(dateObj)"
+      [class.active]="isSelectedDate(dateObj)"
+      class="date-button"
+    >
+      {{ dateObj.display }}
+    </button>
+  </div>
+</div>
 
+
+<!--
 <div class="container matches-container">
   <div class="row">
     <div class="col-md-4" *ngFor="let match of matches; let i = index">
@@ -23,7 +38,7 @@
     </div>
   </div>
 </div>
-
+-->
 
 <h1 class="text-center mb-4">Partidos de la Liga Española</h1>
 <div class="container matches-container">
@@ -71,7 +86,7 @@
           <h5>Eventos del Partido</h5>
           <ul class="list-unstyled">
             <li *ngFor="let detail of event.competitions[0]?.details">
-              <p><strong>{{ detail.clock?.displayValue }}</strong> - {{ detail.type?.text }} - {{ detail.athletesInvolved[0]?.displayName }}</p>
+              <p><strong>{{ detail.clock?.displayValue }}</strong> - {{ detail.type?.text }} - {{ detail.athletesInvolved?.[0]?.displayName }}</p>
             </li>
           </ul>
         </div>
@@ -79,6 +94,7 @@
     </div>
   </div>
 </div>
+
 
 <h1 class="text-center mb-4">Partidos de la Liga Inglesa</h1>
 <div class="container matches-container">
@@ -126,7 +142,7 @@
           <h5>Eventos del Partido</h5>
           <ul class="list-unstyled">
             <li *ngFor="let detail of event.competitions[0]?.details">
-              <p><strong>{{ detail.clock?.displayValue }}</strong> - {{ detail.type?.text }} - {{ detail.athletesInvolved[0]?.displayName }}</p>
+              <p><strong>{{ detail.clock?.displayValue }}</strong> - {{ detail.type?.text }} - {{ detail.athletesInvolved?.[0]?.displayName }}</p>
             </li>
           </ul>
         </div>

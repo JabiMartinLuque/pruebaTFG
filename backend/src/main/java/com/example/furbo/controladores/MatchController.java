@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.CrossOrigin; 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -39,6 +39,18 @@ public class MatchController {
     @GetMapping("/eng")
     public ResponseEntity<String> getMatchesEng() {
         String matches = matchService.getMatchesEng();
+        return ResponseEntity.ok(matches);
+    }
+
+    @GetMapping("/esp/date/{date}")
+    public ResponseEntity<String> getMatchesByDate(@PathVariable String date) {
+        String matches = matchService.getMatchesByDateEsp(date);
+        return ResponseEntity.ok(matches);
+    }
+
+    @GetMapping("/eng/date/{date}")
+    public ResponseEntity<String> getMatchesByDateEng(@PathVariable String date) {
+        String matches = matchService.getMatchesByDateEng(date);
         return ResponseEntity.ok(matches);
     }
 }

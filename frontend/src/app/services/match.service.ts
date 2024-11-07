@@ -40,4 +40,16 @@ export class MatchService {
       map(response => response.events),
     );
   }
+
+  getMatchesByDateEsp(date: string): Observable<any[]> {
+    return this.http.get<any>(`${this.apiUrl}/esp/date/${date}`).pipe(
+      map(response => response.events), // Asegúrate de que la respuesta sea un array de eventos
+    );
+  }
+  
+  getMatchesByDateEng(date: string): Observable<any[]> {
+    return this.http.get<any>(`${this.apiUrl}/eng/date/${date}`).pipe(
+      map(response => response.events), // Asegúrate de que la respuesta sea un array de eventos
+    );
+  }
 }

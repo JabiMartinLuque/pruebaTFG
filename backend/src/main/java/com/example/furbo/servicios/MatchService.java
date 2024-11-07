@@ -82,4 +82,22 @@ public class MatchService {
         return restTemplate.getForObject(url, String.class);
         */
     }
+
+    public String getMatchesByDateEsp(String date) {
+        String url = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=" + date + "-" + date;
+        
+        HttpHeaders headers = new HttpHeaders();
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+        ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
+        return response.getBody();
+    }
+
+    public String getMatchesByDateEng(String date) {
+        String url = "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=" + date + "-" + date;
+        
+        HttpHeaders headers = new HttpHeaders();
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+        ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
+        return response.getBody();
+    }
 }

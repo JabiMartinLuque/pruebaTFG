@@ -973,3 +973,35 @@ create table season (ref varchar(255) not null, abbreviation varchar(255), displ
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
 Table "SEASON" not found; SQL statement:
 alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-07 22:59:50.760195+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-07 22:59:50.770712+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-07 23:38:40.744349+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-07 23:38:40.753349+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-07 23:44:53.731397+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-07 23:44:53.739904+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-08 00:24:10.669813+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-08 00:24:10.681320+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]

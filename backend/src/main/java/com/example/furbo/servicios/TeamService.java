@@ -49,7 +49,7 @@ public class TeamService {
             // La base de datos está vacía, procedemos a cargar los equipos
             int pageCount = 100; // Ajusta según sea necesario
             for (int page = 1; page <= pageCount; page++) {
-                String url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2024/teams?lang=es&region=es&page=" + page;
+                String url = "http://sports.core.api.espn.com/v2/sports/soccer/teams?lang=es&region=es&page=" + page;
                 ResponseEntity<JsonNode> response = restTemplate.getForEntity(url, JsonNode.class);
                 JsonNode items = response.getBody().get("items");
 

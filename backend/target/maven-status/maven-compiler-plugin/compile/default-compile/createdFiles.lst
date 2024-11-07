@@ -4,6 +4,7 @@ com\example\furbo\entidades\Partido.class
 com\example\furbo\entidades\Usuario.class
 com\example\furbo\entidades\Country.class
 com\example\furbo\entidades\Position.class
+db\migration\V1__Cargar_Datos_Teams.class
 com\example\furbo\repositorios\TeamRepository.class
 com\example\furbo\entidades\Match.class
 com\example\furbo\controladores\NoticiasController.class

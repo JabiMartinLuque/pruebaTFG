@@ -1,288 +1,383 @@
 {
-    "filters": {
-        "dateFrom": "2024-10-29",
-        "dateTo": "2024-10-30",
-        "permission": "TIER_ONE"
-    },
-    "resultSet": {
-        "count": 4,
-        "competitions": "BSA,SA",
-        "first": "2024-10-29",
-        "last": "2024-10-29",
-        "played": 4
-    },
-    "matches": [
-        {
-            "area": {
-                "id": 2032,
-                "name": "Brazil",
-                "code": "BRA",
-                "flag": "https://crests.football-data.org/764.svg"
-            },
-            "competition": {
-                "id": 2013,
-                "name": "Campeonato Brasileiro Série A",
-                "code": "BSA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/bsa.png"
-            },
-            "season": {
-                "id": 2257,
-                "startDate": "2024-04-13",
-                "endDate": "2024-12-08",
-                "currentMatchday": 31,
-                "winner": null
-            },
-            "id": 494061,
-            "utcDate": "2024-10-29T00:00:00Z",
-            "status": "FINISHED",
-            "matchday": 31,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2024-10-29T02:57:56Z",
-            "homeTeam": {
-                "id": 1780,
-                "name": "CR Vasco da Gama",
-                "shortName": "Vasco da Gama",
-                "tla": "VAS",
-                "crest": "https://crests.football-data.org/1780.png"
-            },
-            "awayTeam": {
-                "id": 1777,
-                "name": "EC Bahia",
-                "shortName": "Bahia",
-                "tla": "BAH",
-                "crest": "https://crests.football-data.org/1777.png"
-            },
-            "score": {
-                "winner": "HOME_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 3,
-                    "away": 2
-                },
-                "halfTime": {
-                    "home": 3,
-                    "away": 1
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11260,
-                    "name": "Raphael Claus",
-                    "type": "REFEREE",
-                    "nationality": "Brazil"
-                }
-            ]
+    "count": 113,
+    "pageIndex": 1,
+    "pageSize": 25,
+    "pageCount": 5,
+    "items": [
+      {
+        "date": "2024-01-02T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/212342?lang=es&region=es"
         },
-        {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 2310,
-                "startDate": "2024-08-18",
-                "endDate": "2025-05-25",
-                "currentMatchday": 10,
-                "winner": null
-            },
-            "id": 503139,
-            "utcDate": "2024-10-29T17:30:00Z",
-            "status": "FINISHED",
-            "matchday": 10,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2024-10-29T19:32:04Z",
-            "homeTeam": {
-                "id": 5890,
-                "name": "US Lecce",
-                "shortName": "Lecce",
-                "tla": "USL",
-                "crest": "https://crests.football-data.org/5890.png"
-            },
-            "awayTeam": {
-                "id": 450,
-                "name": "Hellas Verona FC",
-                "shortName": "Verona",
-                "tla": "HVE",
-                "crest": "https://crests.football-data.org/450.png"
-            },
-            "score": {
-                "winner": "HOME_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 1,
-                    "away": 0
-                },
-                "halfTime": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11043,
-                    "name": "Maurizio Mariani",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/tur.1/seasons/2023/teams/1895?lang=es&region=es"
         },
-        {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 2310,
-                "startDate": "2024-08-18",
-                "endDate": "2025-05-25",
-                "currentMatchday": 10,
-                "winner": null
-            },
-            "id": 503134,
-            "utcDate": "2024-10-29T17:30:00Z",
-            "status": "FINISHED",
-            "matchday": 10,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2024-10-29T19:54:13Z",
-            "homeTeam": {
-                "id": 104,
-                "name": "Cagliari Calcio",
-                "shortName": "Cagliari",
-                "tla": "CAG",
-                "crest": "https://crests.football-data.org/104.png"
-            },
-            "awayTeam": {
-                "id": 103,
-                "name": "Bologna FC 1909",
-                "shortName": "Bologna",
-                "tla": "BOL",
-                "crest": "https://crests.football-data.org/103.png"
-            },
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 0,
-                    "away": 2
-                },
-                "halfTime": {
-                    "home": 0,
-                    "away": 1
-                },
-                "regularTime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "penalties": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11129,
-                    "name": "Francesco Fourneau",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/102?lang=es&region=es"
         },
-        {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 2310,
-                "startDate": "2024-08-18",
-                "endDate": "2025-05-25",
-                "currentMatchday": 10,
-                "winner": null
-            },
-            "id": 503140,
-            "utcDate": "2024-10-29T19:45:00Z",
-            "status": "FINISHED",
-            "matchday": 10,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2024-10-29T21:45:00Z",
-            "homeTeam": {
-                "id": 98,
-                "name": "AC Milan",
-                "shortName": "Milan",
-                "tla": "MIL",
-                "crest": "https://crests.football-data.org/98.png"
-            },
-            "awayTeam": {
-                "id": 113,
-                "name": "SSC Napoli",
-                "shortName": "Napoli",
-                "tla": "NAP",
-                "crest": "https://crests.football-data.org/113.png"
-            },
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 1,
-                    "away": 2
-                },
-                "halfTime": {
-                    "home": 0,
-                    "away": 2
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 57878,
-                    "name": "Andrea Colombo",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
-        }
+        "type": "Gratis",
+        "amount": 0,
+        "displayAmount": "Gratis"
+      },
+      {
+        "date": "2024-01-03T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/329383?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/bra.1/seasons/2023/teams/3458?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/83?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-01-05T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/athletes/251701?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/102?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/398?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-08T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/297829?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ger.1/seasons/2023/teams/11420?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/2922?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-10T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/282289?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ita.1/seasons/2023/teams/110?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/243?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-15T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/300007?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/360?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/243?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-19T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/213141?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/380?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/102?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-22T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/169220?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/361?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/85?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-01-22T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/303844?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ita.1/seasons/2023/teams/103?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/6832?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-23T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/301462?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/380?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/102?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-24T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/231838?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/1068?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/89?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-24T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/285799?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/rou.1/seasons/2023/teams/545?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/1068?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-01-26T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/athletes/194778?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/1068?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/398?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-01-26T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/345805?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.1/seasons/2023/teams/17544?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/1068?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-01-29T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/tur.1/seasons/2023/athletes/230757?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/1068?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/tur.1/seasons/2023/teams/436?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-30T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/305608?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ger.1/seasons/2023/teams/11420?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/102?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-30T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ksa.1/seasons/2023/athletes/102251?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/243?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ksa.1/seasons/2023/teams/793?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-01-31T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/332892?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/86?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/94?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-01-31T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/192226?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/94?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/1068?lang=es&region=es"
+        },
+        "type": "Gratis",
+        "amount": 0,
+        "displayAmount": "Gratis"
+      },
+      {
+        "date": "2024-01-31T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/290538?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/360?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/3747?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      },
+      {
+        "date": "2024-02-01T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/290190?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/380?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/3747?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-02-01T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/227714?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/371?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/244?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-02-01T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/235672?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/usa.1/seasons/2023/teams/21300?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/3747?lang=es&region=es"
+        },
+        "type": "No revelado",
+        "amount": 0,
+        "displayAmount": "No revelado"
+      },
+      {
+        "date": "2024-02-01T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/169661?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/362?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/102?lang=es&region=es"
+        },
+        "type": "Gratis",
+        "amount": 0,
+        "displayAmount": "Gratis"
+      },
+      {
+        "date": "2024-02-01T08:00Z",
+        "athlete": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/athletes/318291?lang=es&region=es"
+        },
+        "from": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2023/teams/367?lang=es&region=es"
+        },
+        "to": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/esp.1/seasons/2023/teams/243?lang=es&region=es"
+        },
+        "type": "Préstamo",
+        "amount": 0,
+        "displayAmount": "Préstamo"
+      }
     ]
-}
+  }

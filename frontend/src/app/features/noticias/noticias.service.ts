@@ -8,7 +8,7 @@ import { tap, map } from 'rxjs/operators';
   providedIn: 'root'
 })
 
-export class NoticiaService {
+export class NoticiasService {
     
       private apiUrl = 'http://localhost:8080/api/noticias';  // URL del backend Spring Boot
       private noticiasCache: any[] | null = null;

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MatchService } from '../services/match.service'; // Asegúrate de tener un servicio para obtener los datos del partido
+import { MatchService } from '../match.service'; // Asegúrate de tener un servicio para obtener los datos del partido
 
 @Component({
   selector: 'app-match-detail',

@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MatchesComponent } from './matches/matches.component';
-import { TeamsComponent } from './teams/teams.component';
-import { RegistroComponent } from './registro/registro.component';
-import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+import { MatchesComponent } from './features/match/matches/matches.component';
+import { TeamsComponent } from './features/team/teams/teams.component';
+import { RegistroComponent } from './features/gestion-usuarios/registro/registro.component';
+import { InicioSesionComponent } from './features/gestion-usuarios/inicio-sesion/inicio-sesion.component';
 import { PrincipalComponent } from './principal/principal.component';
-import { MatchDetailComponent } from './match-detail/match-detail.component';
-import { NoticiasComponent } from './noticias/noticias.component';
-import { StandingComponent } from './standing/standing.component';
-import { EquipoComponent } from './equipo/equipo.component';
+import { MatchDetailComponent } from './features/match/match-detail/match-detail.component';
+import { NoticiasComponent } from './features/noticias/noticias.component';
+import { StandingComponent } from './features/standing/standing.component';
+import { EquipoComponent } from './features/team/equipo/equipo.component';
 import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [

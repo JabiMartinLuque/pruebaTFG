@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { MatchService } from '../services/match.service';
+import { MatchService } from '../match.service';
 import { Router } from '@angular/router';
 
 @Component({

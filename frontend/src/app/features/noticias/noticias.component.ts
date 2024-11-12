@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { NoticiaService } from '../services/noticia.service';
+import { NoticiasService } from './noticias.service';
 
 @Component({
   selector: 'app-noticias',
@@ -11,10 +11,10 @@ export class NoticiasComponent {
   
     noticias: any[] = [];
   
-    constructor(private noticiaService: NoticiaService) {}
+    constructor(private noticiasService: NoticiasService) {}
   
     ngOnInit(): void {
-      this.noticiaService.getNoticiasEsp().subscribe(
+      this.noticiasService.getNoticiasEsp().subscribe(
         noticias => this.noticias = noticias
       );
     }

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { StandingService } from '../services/standing.service';
-import { TeamService } from '../services/team.service';
+import { StandingService } from './standing.service';
+import { TeamService } from '../team/team.service';
 import { Observable } from 'rxjs';
 
 @Component({

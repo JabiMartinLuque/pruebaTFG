@@ -1,8 +1,9 @@
 // src/app/registro/registro.component.ts
 import { Component, EventEmitter, Output } from '@angular/core';
-import { Usuario } from '../entities/usuario';
-import { UsuarioService } from '../services/usuario.service';
+import { Usuario } from '../../../entities/usuario';
+import { UsuarioService } from '../usuario.service';
 import { Router } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-registro',

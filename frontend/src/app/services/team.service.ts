@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { map, Observable } from 'rxjs';
+import { map, Observable, tap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -27,5 +27,17 @@ export class TeamService {
     return this.http.get<any>(href).pipe(
       map(response => response.logos[0].href)
     );
+  }
+
+  getTeamIdByHref(href: string): Observable<string> {
+    console.log('Getting team ID by href:', href);
+    return this.http.get<any>(href).pipe(
+      map(response => response.id),
+      tap(id => console.log('Team ID:', id))
+    );
+  }
+
+  getTeamById(id: string): Observable<any> {
+    return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
 }

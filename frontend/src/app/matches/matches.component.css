@@ -55,3 +55,83 @@
   background-color: #007bff;
   color: white;
 }
+
+.match-card {
+  transition: transform 0.2s;
+}
+
+.match-card:hover {
+  transform: scale(1.03);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.accordion-button {
+  background-color: #fff;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #f8f9fa;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button .flex-grow-1 {
+  flex-grow: 1;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+
+
+/* Añadir bordes y margen a los accordion items */
+.accordion-item {
+  border: 1px solid #dee2e6;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Estilo para el encabezado del accordion */
+.accordion-button {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Remover el background del botón al estar colapsado */
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+}
+
+/* Alinear el ícono desplegable a la derecha */
+.accordion-button .ms-auto {
+  margin-left: auto;
+}
+
+/* Ajustar los márgenes de las imágenes y textos */
+.accordion-button img {
+  width: 40px;
+  height: 40px;
+}
+
+.accordion-button .fw-bold {
+  margin: 0 10px;
+}
+
+/* Ocular el ícono de flecha predeterminado de Bootstrap */
+.accordion-button::after {
+  display: none;
+}

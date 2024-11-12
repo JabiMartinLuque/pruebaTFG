@@ -24,7 +24,7 @@
             <tr *ngFor="let standing of currentStandings">
                 <td>{{ standing.records[0].stats[23].value }}</td>
                 <td>
-                    <img [src]="standing.teamLogo" alt="{{ standing.teamName }}" width="50">
+                    <img [src]="standing.teamLogo" alt="{{ standing.teamName }}" width="50" (click)="goToTeamDetail(standing.team.$ref)">
                     <span *ngIf="standing.note?.description" [ngClass]="{
                         'badge badge-primary': standing.note.description === 'Champions League',
                         'badge badge-warning': standing.note.description === 'Europa League',

@@ -40,26 +40,42 @@
 </div>
 -->
 
-<h1 class="text-center mb-4">Partidos de la Liga Española</h1>
-<div class="container matches-container">
-  <div class="row">
-    <div class="col-md-4" *ngFor="let event of matchesESP; let i = index">
-      <div class="card match-card mb-4" (click)="goToMatchDetail(event.id)">
-        <div class="card-header text-center">
-          <div class="team-logos">
-            <div class="team-logo-container">
-              <img [src]="event.competitions[0]?.competitors[0]?.team?.logo" alt="{{ event.competitions[0]?.competitors[0]?.team?.name }}" class="team-logo">
-            </div>
-            <span class="vs-text">vs</span>
-            <div class="team-logo-container">
-              <img [src]="event.competitions[0]?.competitors[1]?.team?.logo" alt="{{ event.competitions[0]?.competitors[1]?.team?.name }}" class="team-logo">
-            </div>
-          </div>
-        </div>
-        <div class="card-body text-center">
+<!-- Importante: Asegúrate de tener Bootstrap 5 correctamente configurado -->
+
+<h1 class="text-center mb-4">Partidos</h1>
+<div class="container">
+  <!-- Liga Española -->
+  <h2 class="mb-3">Liga Española</h2>
+  <div class="accordion" id="accordionEsp">
+    <div class="accordion-item" *ngFor="let event of matchesESP; let i = index">
+      <h2 class="accordion-header" [id]="'headingEsp' + i">
+        <button class="accordion-button collapsed d-flex align-items-center" type="button"
+                [attr.data-bs-toggle]="'collapse'" [attr.data-bs-target]="'#collapseEsp' + i"
+                aria-expanded="false" [attr.aria-controls]="'collapseEsp' + i"
+                (click)="toggleExpanded('Esp', i)">
+          <!-- Logo Equipo Local -->
+          <img [src]="event.competitions[0]?.competitors[0]?.team?.logo" alt="Equipo Local"
+               class="me-2" style="width: 40px; height: 40px;" (click)="gotoEquipo(event.competitions[0]?.competitors[0]?.team.id)">
+          <!-- Resultado en medio -->
+          <span class="fw-bold mx-2">
+            {{ event.competitions[0]?.competitors[0]?.score }} - {{ event.competitions[0]?.competitors[1]?.score }}
+          </span>
+          <!-- Logo Equipo Visitante -->
+          <img [src]="event.competitions[0]?.competitors[1]?.team?.logo" alt="Equipo Visitante"
+               class="ms-2" style="width: 40px; height: 40px;" (click)="gotoEquipo(event.competitions[0]?.competitors[1]?.team.id)">
+          <!-- Espaciador flexible -->
+          <span class="flex-grow-1"></span>
+          <!-- Ícono desplegable (solo uno) -->
+          <i class="bi ms-auto me-2"
+             [ngClass]="{'bi-chevron-down': !isExpanded('Esp', i), 'bi-chevron-up': isExpanded('Esp', i)}"></i>
+        </button>
+      </h2>
+      <div [id]="'collapseEsp' + i" class="accordion-collapse collapse" [attr.aria-labelledby]="'headingEsp' + i"
+           data-bs-parent="#accordionEsp">
+        <div class="accordion-body">
+          <!-- Detalles del partido -->
           <p><strong>Fecha:</strong> {{ event.date | date:'short' }}</p>
           <p><strong>Estado:</strong> {{ event.status?.type?.description }}</p>
-          <p><strong>Resultado:</strong> {{ event.competitions[0]?.competitors[0]?.score }} - {{ event.competitions[0]?.competitors[1]?.score }}</p>
           <hr>
           <h5>Estadísticas del Partido</h5>
           <div class="row">
@@ -93,29 +109,39 @@
       </div>
     </div>
   </div>
-</div>
 
-
-<h1 class="text-center mb-4">Partidos de la Liga Inglesa</h1>
-<div class="container matches-container">
-  <div class="row">
-    <div class="col-md-4" *ngFor="let event of matchesENG; let i = index">
-      <div class="card match-card mb-4" (click)="goToMatchDetail(event.id)">
-        <div class="card-header text-center">
-          <div class="team-logos">
-            <div class="team-logo-container">
-              <img [src]="event.competitions[0]?.competitors[0]?.team?.logo" alt="{{ event.competitions[0]?.competitors[0]?.team?.name }}" class="team-logo">
-            </div>
-            <span class="vs-text">vs</span>
-            <div class="team-logo-container">
-              <img [src]="event.competitions[0]?.competitors[1]?.team?.logo" alt="{{ event.competitions[0]?.competitors[1]?.team?.name }}" class="team-logo">
-            </div>
-          </div>
-        </div>
-        <div class="card-body text-center">
+  <!-- Liga Inglesa -->
+  <h2 class="mt-5 mb-3">Liga Inglesa</h2>
+  <div class="accordion" id="accordionEng">
+    <div class="accordion-item" *ngFor="let event of matchesENG; let i = index">
+      <h2 class="accordion-header" [id]="'headingEng' + i">
+        <button class="accordion-button collapsed d-flex align-items-center" type="button"
+                [attr.data-bs-toggle]="'collapse'" [attr.data-bs-target]="'#collapseEng' + i"
+                aria-expanded="false" [attr.aria-controls]="'collapseEng' + i"
+                (click)="toggleExpanded('Eng', i)">
+          <!-- Logo Equipo Local -->
+          <img [src]="event.competitions[0]?.competitors[0]?.team?.logo" alt="Equipo Local"
+               class="me-2" style="width: 40px; height: 40px;">
+          <!-- Resultado en medio -->
+          <span class="fw-bold mx-2">
+            {{ event.competitions[0]?.competitors[0]?.score }} - {{ event.competitions[0]?.competitors[1]?.score }}
+          </span>
+          <!-- Logo Equipo Visitante -->
+          <img [src]="event.competitions[0]?.competitors[1]?.team?.logo" alt="Equipo Visitante"
+               class="ms-2" style="width: 40px; height: 40px;">
+          <!-- Espaciador flexible -->
+          <span class="flex-grow-1"></span>
+          <!-- Ícono desplegable (solo uno) -->
+          <i class="bi ms-auto me-2"
+             [ngClass]="{'bi-chevron-down': !isExpanded('Eng', i), 'bi-chevron-up': isExpanded('Eng', i)}"></i>
+        </button>
+      </h2>
+      <div [id]="'collapseEng' + i" class="accordion-collapse collapse" [attr.aria-labelledby]="'headingEng' + i"
+           data-bs-parent="#accordionEng">
+        <div class="accordion-body">
+          <!-- Detalles del partido -->
           <p><strong>Fecha:</strong> {{ event.date | date:'short' }}</p>
           <p><strong>Estado:</strong> {{ event.status?.type?.description }}</p>
-          <p><strong>Resultado:</strong> {{ event.competitions[0]?.competitors[0]?.score }} - {{ event.competitions[0]?.competitors[1]?.score }}</p>
           <hr>
           <h5>Estadísticas del Partido</h5>
           <div class="row">

@@ -86,4 +86,12 @@ export class StandingComponent {
   getTeamLogoByHref(href: string): Observable<any> {
     return this.teamService.getTeamLogoByHref(href);
   }
+
+  goToTeamDetail(href: string): void {
+    console.log('Navigating to team:', href);
+    this.teamService.getTeamIdByHref(href).subscribe(id => {
+      console.log('Team ID:', id);
+      this.router.navigate(['/equipo', id]);
+    });
+  }
 }

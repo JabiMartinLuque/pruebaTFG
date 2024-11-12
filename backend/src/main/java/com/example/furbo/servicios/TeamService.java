@@ -43,6 +43,22 @@ public class TeamService {
         */
     }
 
+    public String getTeamById(String id) {
+        String url = "http://sports.core.api.espn.com/v2/sports/soccer/teams/" + id + "?lang=es&region=es";
+        
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("X-Auth-Token", "ffff1aac6e7147cd9eb59da188eeda08");  // Reemplaza TU_API_KEY con tu clave de la API
+        
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+        ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
+        return response.getBody();
+        
+
+        /* 
+        return restTemplate.getForObject(url, String.class);
+        */
+    }
+
     @PostConstruct
     public void loadAllTeams() {
         if (teamRepository.count() == 0) {

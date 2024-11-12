@@ -1,0 +1,24 @@
+<!-- equipo.component.html -->
+<div class="container">
+    <h1>{{ team.displayName }}</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <img [src]="team.logos[0].href" alt="{{ team.name }}" class="img-fluid">
+      </div>
+      <div class="col-md-8">
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Nombre:</strong> {{ team.name }}</li>
+          <li class="list-group-item"><strong>Abreviación:</strong> {{ team.abbreviation }}</li>
+          <li class="list-group-item"><strong>Ubicación:</strong> {{ team.location }}</li>
+          <li class="list-group-item">
+            <strong>Colores:</strong>
+            <span
+              [style.background-color]="team.color ? '#' + team.color : '#000000'"
+              [style.color]="team.alternateColor ? '#' + team.alternateColor : '#FFFFFF'">
+              Color Primario
+            </span>
+          </li>          <li class="list-group-item"><strong>Estadio:</strong> {{ team.venue.fullName }}, {{ team.venue.address.city }}, {{ team.venue.address.country }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>

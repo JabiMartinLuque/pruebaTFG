@@ -19,6 +19,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { MatchDetailComponent } from './match-detail/match-detail.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { StandingComponent } from './standing/standing.component';
+import { EquipoComponent } from './equipo/equipo.component';
 
 // Define las rutas directamente en app.module.ts
 const routes: Routes = [
@@ -36,7 +37,8 @@ const routes: Routes = [
     PrincipalComponent,
     MatchDetailComponent,
     NoticiasComponent,
-    StandingComponent
+    StandingComponent,
+    EquipoComponent
   ],
   imports: [
     BrowserModule,

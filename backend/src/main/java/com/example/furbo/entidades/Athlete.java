@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.*;
 
@@ -39,4 +40,8 @@ public class Athlete {
     @ManyToOne  // Relación muchos a uno con la clase Position
     @JoinColumn(name = "position_id", referencedColumnName = "id")  // Relación con la tabla Position
     private Position position;  // Posición del atleta
+
+    @ManyToOne
+    @JoinColumn(name = "country_id", referencedColumnName = "id")
+    private Country country;  // País del atleta
 }

@@ -16,6 +16,8 @@ export class MatchesComponent implements OnInit {
   displayedDates: any[] = [];
   selectedDate: string = '';
 
+  expandedStates: { [key: string]: boolean } = {};
+
   @ViewChild('scrollContainer') scrollContainer!: ElementRef;
 
 
@@ -63,6 +65,15 @@ export class MatchesComponent implements OnInit {
 
   goToMatchDetail(id: string): void {
     this.router.navigate(['/matches', id]);
+  }
+
+  toggleExpanded(league: string, index: number) {
+    const key = `${league}${index}`;
+    this.expandedStates[key] = !this.expandedStates[key];
+  }
+
+  isExpanded(league: string, index: number): boolean {
+    return this.expandedStates[`${league}${index}`] || false;
   }
 
   generateDates() {
@@ -132,5 +143,9 @@ export class MatchesComponent implements OnInit {
       const scrollPosition = buttonOffsetLeft - (containerWidth / 2) + (buttonWidth / 2);
       container.scrollLeft = scrollPosition;
     }
+  }
+
+  gotoEquipo(id: string): void {
+    this.router.navigate(['/equipo', id]);
   }
 }

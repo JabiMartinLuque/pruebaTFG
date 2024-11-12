@@ -1005,3 +1005,799 @@ create table season (ref varchar(255) not null, abbreviation varchar(255), displ
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
 Table "SEASON" not found; SQL statement:
 alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-09 01:19:54.897587+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-09 01:19:54.906590+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-09 01:58:01.908233+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+SELECT COUNT(*) FROM country [42102-224]
+2024-11-09 02:02:03.292330+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+SELECT COUNT(*) FROM country [42102-224]
+2024-11-09 02:03:39.337418+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:39.589273+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:39.836102+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:40.096191+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:40.351808+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:40.611264+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:40.866364+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:41.115211+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:41.372023+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:41.624676+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:41.872801+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:42.123218+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:42.372071+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:42.619451+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:42.881711+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:43.128928+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:43.386929+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:43.635398+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:43.890346+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:44.145384+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:44.405837+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:44.656336+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:44.904656+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:45.154955+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:45.403882+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:45.948971+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:46.198916+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:46.449205+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:46.699139+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:46.954140+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:47.201037+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:47.454725+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:47.704360+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:47.955253+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:48.204777+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:48.452674+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:48.701547+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:48.950820+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:49.202158+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:49.451917+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:49.701207+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:49.952004+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:50.205405+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:50.452867+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:50.700806+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:50.954169+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:51.203817+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:51.455367+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:51.701516+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:51.947863+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:52.494855+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:52.744988+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:52.996804+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:53.243847+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:53.495610+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:53.747594+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:54.010491+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:54.259234+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:54.509863+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:54.757695+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:55.006541+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:55.256374+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:55.513025+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:55.763697+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:56.014828+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:56.267231+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:56.517169+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:56.763452+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:57.010297+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:57.259539+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:57.506594+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:57.755089+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:58.005672+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:58.253413+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:58.499964+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:59.154170+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:59.404207+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:59.651473+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:03:59.900828+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:00.150024+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:00.397270+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:00.647688+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:00.894197+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:01.141516+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:01.388989+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:01.637174+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:01.886684+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:02.134837+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:02.384111+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:02.631177+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:02.878227+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:03.130925+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:03.381180+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:03.632674+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:03.879981+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:04.130475+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:04.379652+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:04.628893+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:04.878864+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:05.125867+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:05.662808+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:05.910200+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:06.159835+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:06.414704+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:06.662353+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:06.918798+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:07.168198+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:07.417350+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:07.666400+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:07.916329+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:08.162809+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:08.413540+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:08.666843+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:08.917505+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:09.169402+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:09.417620+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:09.666793+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:09.915183+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:10.164748+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:10.413313+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:10.663716+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:10.911747+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:11.164485+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:11.415704+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:11.664184+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:12.171452+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:12.421035+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:12.668759+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:12.919668+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:13.172744+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:13.419966+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:13.678374+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:13.932431+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:14.184017+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:14.431142+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:14.702263+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:14.969468+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:15.225638+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:15.476714+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:15.729675+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:15.977872+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:16.228576+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:16.477150+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:16.727635+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:16.976799+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:17.225237+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:17.474798+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:17.729827+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:17.980156+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:18.226822+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:18.782396+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:19.030932+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:19.278398+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:19.532176+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:19.779902+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:20.028426+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:20.275512+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:20.523466+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:20.774269+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:21.023693+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:21.271330+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:21.521028+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:21.768728+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:22.015979+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:22.262902+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:22.513932+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:22.761903+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:23.013443+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:23.259811+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:23.506345+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:23.752399+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:24.007579+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:24.257896+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:24.506924+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:24.752594+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:25.423020+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:25.673342+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:25.921157+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:04:26.170415+01:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+INSERT INTO country (id, slug, name, abbreviation, flag_href) VALUES (?, ?, ?, ?, ?) [42102-224]
+2024-11-09 02:13:10.984274+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-09 02:13:10.995784+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-09 02:16:07.206055+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-09 02:16:07.215566+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-09 02:19:13.211224+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-09 02:19:13.220730+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-10 21:15:05.093052+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-10 21:15:05.103052+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]
+2024-11-10 23:12:38.399793+01:00 jdbc[45]: null
+org.h2.message.DbException: La conexión no fue cerrada por la aplicación y esta siendo limpiada (garbage collected)
+The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:733)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: La conexión no fue cerrada por la aplicación y esta siendo limpiada (garbage collected)
+The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-11-10 23:18:37.916185+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; se esperaba "identifier"
+Syntax error in SQL statement "create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, [*]year integer not null, league_id bigint, primary key (ref))"; expected "identifier"; SQL statement:
+create table season (ref varchar(255) not null, abbreviation varchar(255), display_name varchar(255), end_date timestamp(6) with time zone, short_display_name varchar(255), start_date timestamp(6) with time zone, year integer not null, league_id bigint, primary key (ref)) [42001-224]
+2024-11-10 23:18:37.925184+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SEASON" no encontrada
+Table "SEASON" not found; SQL statement:
+alter table if exists season_athletes add constraint FKaknvogtat94b2tgomk100efn7 foreign key (season_ref) references season [42102-224]

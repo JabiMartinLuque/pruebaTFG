@@ -7,6 +7,7 @@ C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\controlador
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\servicios\NoticiasService.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\config\WebConfig.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\entidades\Position.java
+C:\Users\jamar\furboProyecto\backend\src\main\java\db\migration\V2__Cargar_Datos_Country.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\controladores\NoticiasController.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\FurboApplication.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\entidades\Athlete.java
@@ -19,6 +20,7 @@ C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\entidades\T
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\servicios\StandingService.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\entidades\Match.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\controladores\UsuarioController.java
+C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\repositorios\CountryRepository.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\servicios\TeamService.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\entidades\League.java
 C:\Users\jamar\furboProyecto\backend\src\main\java\com\example\furbo\servicios\UsuarioService.java

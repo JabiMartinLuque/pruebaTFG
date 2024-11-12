@@ -3,6 +3,7 @@ package com.example.furbo.controladores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,5 +24,9 @@ public class TeamController {
         return ResponseEntity.ok(teams);
     }
 
-    
+    @GetMapping("/{id}")
+    public ResponseEntity<String> getTeamById(@PathVariable String id) {
+        String team = teamService.getTeamById(id);
+        return ResponseEntity.ok(team);
+    }    
 }
